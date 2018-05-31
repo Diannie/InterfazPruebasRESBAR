@@ -787,15 +787,18 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         try {
-                List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
-                Producto prueba = new Producto();
-                prueba.nombre = "Lasaña";
-                prueba.precio = new BigDecimal(4);  
-                prueba.idProducto = mpro.ObtenerId();
-                prueba.idCategoria.idCategoria = 1;
-                prueba.area = 'C';
-                prueba.detalleOrdenList = dt;
-                mpro.Insertar(prueba);
+            List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
+            Producto prueba = new Producto();
+            prueba.nombre = "Lasaña";
+            prueba.precio = new BigDecimal(4);  
+            prueba.idProducto = mpro.ObtenerId();
+            Categoria c = new Categoria();
+            c.idCategoria = 1;
+            prueba.idCategoria = c;
+            prueba.area = 'C';
+            prueba.detalleOrdenList = dt;
+            mpro.Insertar(prueba);
+            JOptionPane.showMessageDialog(null, "Se creo el producto "+prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -817,13 +820,16 @@ public class Interfaz extends javax.swing.JFrame {
         try {
             List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
             Producto prueba = new Producto();
-            prueba.nombre = "Ceral";
-            prueba.precio = new BigDecimal(5);  
+            prueba.nombre = "Lasaña";
+            prueba.precio = new BigDecimal(4);  
             prueba.idProducto = mpro.ObtenerId();
-            prueba.idCategoria.idCategoria = 1;
+            Categoria c = new Categoria();
+            c.idCategoria = 1;
+            prueba.idCategoria = c;
             prueba.area = 'C';
             prueba.detalleOrdenList = dt;
             mpro.Insertar(prueba);
+            JOptionPane.showMessageDialog(null, "Se creo el producto "+prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -853,7 +859,8 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         try {            
             Producto prueba = mpro.Obtener(mpro.ObtenerId()-1);
-                mpro.Eliminar(prueba);
+            mpro.Eliminar(prueba);
+            JOptionPane.showMessageDialog(null, "Se ha eliminado producto "+prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -861,9 +868,16 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         try {            
-            Producto prueba = new Producto();
+            Producto prueba = new Producto();            
             prueba.nombre = "No existe";
-                mpro.Eliminar(prueba);
+            prueba.idProducto =1;
+            prueba.precio = new BigDecimal(5);                          
+            prueba.idCategoria = new Categoria();            
+            
+            prueba.area = 'C';            
+            mpro.Eliminar(prueba);
+            
+            JOptionPane.showMessageDialog(null, prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1103,7 +1117,7 @@ public class Interfaz extends javax.swing.JFrame {
             o.idOrden = -1;            
             o.activa = true;
             o.cliente = "Luis Eduardo";
-            o.comentario = "Sin Mayoneza";
+            o.comentario = "Sin Mayonesa";
             o.detalleOrdenList = new ArrayList<>();
             o.fecha = new Date();
             o.mesa = "Mesa 5";
@@ -1143,7 +1157,7 @@ public class Interfaz extends javax.swing.JFrame {
             o.idOrden = mord.ObtenerId();            
             o.activa = true;
             o.cliente = "Luis Eduardo";
-            o.comentario = "Sin Mayoneza";
+            o.comentario = "Sin Mayonesa";
             o.detalleOrdenList = new ArrayList<>();
             o.fecha = new Date();
             o.mesa = "Mesa 5";
