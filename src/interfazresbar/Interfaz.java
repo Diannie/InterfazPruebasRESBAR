@@ -17,6 +17,7 @@ import sv.edu.diseno.acceso.ManejadorProductos;
 import sv.edu.diseno.definiciones.Categoria;
 import sv.edu.diseno.definiciones.DetalleOrden;
 import sv.edu.diseno.definiciones.Orden;
+import sv.edu.diseno.definiciones.Parametro;
 import sv.edu.diseno.definiciones.Producto;
 
 /**
@@ -31,7 +32,7 @@ public class Interfaz extends javax.swing.JFrame {
     public Interfaz() {
         initComponents();
     }
-    
+
     ManejadorCategorias mcat = new ManejadorCategorias();
     ManejadorOrden mord = new ManejadorOrden();
     ManejadorParametros mpar = new ManejadorParametros();
@@ -100,6 +101,33 @@ public class Interfaz extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
+        jLabel3 = new javax.swing.JLabel();
+        jButton21 = new javax.swing.JButton();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jButton22 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
+        jButton53 = new javax.swing.JButton();
+        jButton54 = new javax.swing.JButton();
+        jButton55 = new javax.swing.JButton();
+        jButton56 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jButton57 = new javax.swing.JButton();
+        jButton59 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        jButton58 = new javax.swing.JButton();
+        jButton61 = new javax.swing.JButton();
+        jButton60 = new javax.swing.JButton();
+        jButton62 = new javax.swing.JButton();
+        jButton63 = new javax.swing.JButton();
+        jButton64 = new javax.swing.JButton();
+        jButton65 = new javax.swing.JButton();
+        jButton66 = new javax.swing.JButton();
+        jButton67 = new javax.swing.JButton();
+        jButton68 = new javax.swing.JButton();
+        jButton69 = new javax.swing.JButton();
+        jButton70 = new javax.swing.JButton();
+        jButton71 = new javax.swing.JButton();
+        jButton72 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -449,17 +477,219 @@ public class Interfaz extends javax.swing.JFrame {
 
         jSeparator3.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
+        jLabel3.setText("ManejadorParametros");
+
+        jButton21.setText("16.A");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+
+        jToggleButton1.setText("16.D");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton22.setText("17.A");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+
+        jButton52.setText("17.D");
+        jButton52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton52ActionPerformed(evt);
+            }
+        });
+
+        jButton53.setText("17.B");
+        jButton53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton53ActionPerformed(evt);
+            }
+        });
+
+        jButton54.setText("18.A");
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
+
+        jButton55.setText("18.B");
+        jButton55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton55ActionPerformed(evt);
+            }
+        });
+
+        jButton56.setText("18.D");
+        jButton56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton56ActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setText("Orden");
+
+        jButton57.setText("13.A");
+        jButton57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton57ActionPerformed(evt);
+            }
+        });
+
+        jButton59.setText("13.D");
+        jButton59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton59ActionPerformed(evt);
+            }
+        });
+
+        jLabel5.setText("ManejadorCategorias");
+
+        jButton58.setText("8.A");
+        jButton58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton58ActionPerformed(evt);
+            }
+        });
+
+        jButton61.setText("8.D");
+        jButton61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton61ActionPerformed(evt);
+            }
+        });
+
+        jButton60.setText("9.A");
+        jButton60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton60ActionPerformed(evt);
+            }
+        });
+
+        jButton62.setText("9.B");
+        jButton62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton62ActionPerformed(evt);
+            }
+        });
+
+        jButton63.setText("9.D");
+        jButton63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton63ActionPerformed(evt);
+            }
+        });
+
+        jButton64.setText("10.A");
+        jButton64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton64ActionPerformed(evt);
+            }
+        });
+
+        jButton65.setText("10.B");
+        jButton65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton65ActionPerformed(evt);
+            }
+        });
+
+        jButton66.setText("10.D");
+        jButton66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton66ActionPerformed(evt);
+            }
+        });
+
+        jButton67.setText("11.A");
+        jButton67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton67ActionPerformed(evt);
+            }
+        });
+
+        jButton68.setText("11.D");
+        jButton68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton68ActionPerformed(evt);
+            }
+        });
+
+        jButton69.setText("11.B");
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
+
+        jButton70.setText("12.A");
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton70ActionPerformed(evt);
+            }
+        });
+
+        jButton71.setText("12.D");
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
+
+        jButton72.setText("14.A");
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jSeparator1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(367, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(100, 100, 100)
+                                .addComponent(jLabel3))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(36, 36, 36)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jButton57)
+                                    .addComponent(jButton54)
+                                    .addComponent(jButton21)
+                                    .addComponent(jButton22)
+                                    .addComponent(jButton72))
+                                .addGap(42, 42, 42)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jLabel4))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jButton53, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jButton55, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(42, 42, 42)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jToggleButton1)
+                                                .addComponent(jButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jButton59, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
                         .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -559,7 +789,36 @@ public class Interfaz extends javax.swing.JFrame {
                         .addComponent(jLabel1)))
                 .addGap(68, 68, 68)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton65, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton60, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton67, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jButton61, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton68, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(52, 52, 52))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(102, 102, 102)
+                        .addComponent(jLabel5)
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -619,61 +878,125 @@ public class Interfaz extends javax.swing.JFrame {
                             .addComponent(jButton19)))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jButton58)
+                                    .addComponent(jButton61, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(7, 7, 7)
+                                        .addComponent(jButton60))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                            .addComponent(jButton62)
+                                            .addComponent(jButton63))))
+                                .addGap(5, 5, 5)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(1, 1, 1)
+                                        .addComponent(jButton64))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jButton65)
+                                        .addComponent(jButton66)))
+                                .addGap(9, 9, 9)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(1, 1, 1)
+                                        .addComponent(jButton67))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jButton69)
+                                        .addComponent(jButton68)))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(1, 1, 1)
+                                        .addComponent(jButton70))
+                                    .addComponent(jButton71)))
+                            .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator3)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton14)
-                            .addComponent(jButton23))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton25)
-                            .addComponent(jButton26)
-                            .addComponent(jButton29)
-                            .addComponent(jButton24))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton30)
-                            .addComponent(jButton31)
-                            .addComponent(jButton32)
-                            .addComponent(jButton33))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton34)
-                            .addComponent(jButton35)
-                            .addComponent(jButton36)
-                            .addComponent(jButton37))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton38)
-                            .addComponent(jButton39)
-                            .addComponent(jButton40)
-                            .addComponent(jButton41))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton42)
-                            .addComponent(jButton43)
-                            .addComponent(jButton44)
-                            .addComponent(jButton45))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton46)
-                            .addComponent(jButton51))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton47)
-                            .addComponent(jButton48))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton49)
-                            .addComponent(jButton50))
-                        .addGap(0, 12, Short.MAX_VALUE))
-                    .addComponent(jSeparator3))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton14)
+                                    .addComponent(jButton23))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton25)
+                                    .addComponent(jButton26)
+                                    .addComponent(jButton29)
+                                    .addComponent(jButton24))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton30)
+                                    .addComponent(jButton31)
+                                    .addComponent(jButton32)
+                                    .addComponent(jButton33))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton34)
+                                    .addComponent(jButton35)
+                                    .addComponent(jButton36)
+                                    .addComponent(jButton37))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton38)
+                                    .addComponent(jButton39)
+                                    .addComponent(jButton40)
+                                    .addComponent(jButton41))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton42)
+                                    .addComponent(jButton43)
+                                    .addComponent(jButton44)
+                                    .addComponent(jButton45))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton46)
+                                    .addComponent(jButton51))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton47)
+                                    .addComponent(jButton48))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton49)
+                                    .addComponent(jButton50)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton21)
+                                    .addComponent(jToggleButton1))
+                                .addGap(32, 32, 32)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton22)
+                                    .addComponent(jButton52)
+                                    .addComponent(jButton53))
+                                .addGap(39, 39, 39)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton54)
+                                    .addComponent(jButton56)
+                                    .addComponent(jButton55))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel4)
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton57)
+                                    .addComponent(jButton59))
+                                .addGap(29, 29, 29)
+                                .addComponent(jButton72)))
+                        .addGap(0, 12, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
@@ -683,11 +1006,11 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         //DESCONECTAR BASE DE DATOS 
-        try {            
+        try {
             Producto prueba = mpro.Obtener(1);
-                prueba.nombre = "Sopa de caracol";
-                mpro.Actualizar(prueba);
-                JOptionPane.showMessageDialog(null, prueba.idProducto);
+            prueba.nombre = "Sopa de caracol";
+            mpro.Actualizar(prueba);
+            JOptionPane.showMessageDialog(null, prueba.idProducto);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -695,7 +1018,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         //DESCONECTAR BASE DE DATOS
-        try {            
+        try {
             Producto prueba = mpro.Obtener(5);
             JOptionPane.showMessageDialog(null, prueba);
         } catch (Exception e) {
@@ -705,21 +1028,21 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 
-            List<Producto> listaProductos = mpro.ObtenerxCategoria(1);
-            
-            listaProductos.forEach((element) -> {
-                JOptionPane.showMessageDialog(null, element.nombre);
-            });
+        List<Producto> listaProductos = mpro.ObtenerxCategoria(1);
+
+        listaProductos.forEach((element) -> {
+            JOptionPane.showMessageDialog(null, element.nombre);
+        });
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-     try {
+        try {
             List<Producto> listaProductos = mpro.ObtenerxCategoria(-22);
-            
+
             listaProductos.forEach((element) -> {
                 JOptionPane.showMessageDialog(null, element.nombre);
             });
-            
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -728,11 +1051,11 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         try {
             List<Producto> listaProductos = mpro.ObtenerxCategoria(1);
-            
+
             listaProductos.forEach((element) -> {
                 JOptionPane.showMessageDialog(null, element.nombre);
             });
-            
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -749,11 +1072,11 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         try {
             List<Producto> listaProductos = mpro.Buscar("");
-            
+
             listaProductos.forEach((element) -> {
                 JOptionPane.showMessageDialog(null, element.nombre);
             });
-            
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -762,11 +1085,11 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         try {
             List<Producto> listaProductos = mpro.Buscar("C %' OR 1='1");
-            
+
             listaProductos.forEach((element) -> {
                 JOptionPane.showMessageDialog(null, element.nombre);
             });
-            
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -775,11 +1098,11 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         try {
             List<Producto> listaProductos = mpro.Buscar("sandwich");
-            
+
             listaProductos.forEach((element) -> {
                 JOptionPane.showMessageDialog(null, element.nombre);
             });
-            
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -790,7 +1113,7 @@ public class Interfaz extends javax.swing.JFrame {
             List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
             Producto prueba = new Producto();
             prueba.nombre = "Lasaña";
-            prueba.precio = new BigDecimal(4);  
+            prueba.precio = new BigDecimal(4);
             prueba.idProducto = mpro.ObtenerId();
             Categoria c = new Categoria();
             c.idCategoria = 1;
@@ -798,7 +1121,7 @@ public class Interfaz extends javax.swing.JFrame {
             prueba.area = 'C';
             prueba.detalleOrdenList = dt;
             mpro.Insertar(prueba);
-            JOptionPane.showMessageDialog(null, "Se creo el producto "+prueba.nombre);
+            JOptionPane.showMessageDialog(null, "Se creo el producto " + prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -806,10 +1129,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         try {
-                List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
-                Producto prueba = new Producto();
-                prueba.nombre = "Tacos";
-                mpro.Insertar(prueba);
+            List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
+            Producto prueba = new Producto();
+            prueba.nombre = "Tacos";
+            mpro.Insertar(prueba);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -821,7 +1144,7 @@ public class Interfaz extends javax.swing.JFrame {
             List<DetalleOrden> dt = new ArrayList<DetalleOrden>();
             Producto prueba = new Producto();
             prueba.nombre = "Lasaña";
-            prueba.precio = new BigDecimal(4);  
+            prueba.precio = new BigDecimal(4);
             prueba.idProducto = mpro.ObtenerId();
             Categoria c = new Categoria();
             c.idCategoria = 1;
@@ -829,54 +1152,54 @@ public class Interfaz extends javax.swing.JFrame {
             prueba.area = 'C';
             prueba.detalleOrdenList = dt;
             mpro.Insertar(prueba);
-            JOptionPane.showMessageDialog(null, "Se creo el producto "+prueba.nombre);
+            JOptionPane.showMessageDialog(null, "Se creo el producto " + prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        try {            
+        try {
             Producto prueba = mpro.Obtener(1);
-                prueba.precio = new BigDecimal(5000);
-                mpro.Actualizar(prueba);
-                JOptionPane.showMessageDialog(null, prueba.precio);
+            prueba.precio = new BigDecimal(5000);
+            mpro.Actualizar(prueba);
+            JOptionPane.showMessageDialog(null, prueba.precio);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-       try {            
+        try {
             Producto prueba = mpro.Obtener(3);
-                prueba.idProducto = -3;
-                mpro.Actualizar(prueba);
+            prueba.idProducto = -3;
+            mpro.Actualizar(prueba);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        try {            
-            Producto prueba = mpro.Obtener(mpro.ObtenerId()-1);
+        try {
+            Producto prueba = mpro.Obtener(mpro.ObtenerId() - 1);
             mpro.Eliminar(prueba);
-            JOptionPane.showMessageDialog(null, "Se ha eliminado producto "+prueba.nombre);
+            JOptionPane.showMessageDialog(null, "Se ha eliminado producto " + prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        try {            
-            Producto prueba = new Producto();            
+        try {
+            Producto prueba = new Producto();
             prueba.nombre = "No existe";
-            prueba.idProducto =1;
-            prueba.precio = new BigDecimal(5);                          
-            prueba.idCategoria = new Categoria();            
-            
-            prueba.area = 'C';            
+            prueba.idProducto = 1;
+            prueba.precio = new BigDecimal(5);
+            prueba.idCategoria = new Categoria();
+
+            prueba.area = 'C';
             mpro.Eliminar(prueba);
-            
+
             JOptionPane.showMessageDialog(null, prueba.nombre);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -885,16 +1208,16 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         //DESCONECTAR BASE DE DATOS
-        try {            
-            Producto prueba = mpro.Obtener(mpro.ObtenerId()-1);
-                mpro.Eliminar(prueba);
+        try {
+            Producto prueba = mpro.Obtener(mpro.ObtenerId() - 1);
+            mpro.Eliminar(prueba);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        try {            
+        try {
             Producto prueba = mpro.Obtener(5);
             JOptionPane.showMessageDialog(null, prueba);
         } catch (Exception e) {
@@ -903,7 +1226,7 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        try {            
+        try {
             Producto prueba = mpro.Obtener(-5);
             JOptionPane.showMessageDialog(null, prueba.nombre);
         } catch (Exception e) {
@@ -912,9 +1235,9 @@ public class Interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        try {            
+        try {
             Integer prueba = mpro.ObtenerId();
-            JOptionPane.showMessageDialog(null, "El siguiente ID a usar es:"+prueba);
+            JOptionPane.showMessageDialog(null, "El siguiente ID a usar es:" + prueba);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -922,9 +1245,9 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // Desconectar base de datos
-        try {            
+        try {
             Integer prueba = mpro.ObtenerId();
-            JOptionPane.showMessageDialog(null, "El siguiente ID a usar es:"+prueba);
+            JOptionPane.showMessageDialog(null, "El siguiente ID a usar es:" + prueba);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -933,9 +1256,9 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         try {
             List<Orden> list = mord.ObtenerActivas();
-            
+
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -945,9 +1268,9 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         try {
             List<Orden> list = mord.ObtenerActivas();
-            
+
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -956,10 +1279,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
         try {
-            Orden o = mord.Obtener(1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -967,10 +1290,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         try {
-            Orden o = mord.Obtener(-1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(-1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -978,10 +1301,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
         try {
-            Orden o = mord.Obtener(1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -989,10 +1312,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         try {
-            Orden o = mord.Obtener(1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1001,10 +1324,10 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
         try {
             Orden o = mord.Obtener(1);
-            o.mesa = "Mesa 12";            
-            mord.Actualizar(o);            
-            Orden b = mord.Obtener(1);            
-            JOptionPane.showMessageDialog(null, b.mesa);                            
+            o.mesa = "Mesa 12";
+            mord.Actualizar(o);
+            Orden b = mord.Obtener(1);
+            JOptionPane.showMessageDialog(null, b.mesa);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1013,10 +1336,10 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
         try {
             Orden o = mord.Obtener(1);
-            o.idOrden = -1;            
-            mord.Actualizar(o);            
-            Orden b = mord.Obtener(1);            
-            JOptionPane.showMessageDialog(null, b.idOrden);                            
+            o.idOrden = -1;
+            mord.Actualizar(o);
+            Orden b = mord.Obtener(1);
+            JOptionPane.showMessageDialog(null, b.idOrden);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1024,10 +1347,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
         try {
-            Orden o = mord.Obtener(1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1035,10 +1358,10 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
         try {
-            Orden o = mord.Obtener(1);           
-            
-            JOptionPane.showMessageDialog(null, o.comentario);                
-            
+            Orden o = mord.Obtener(1);
+
+            JOptionPane.showMessageDialog(null, o.comentario);
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1047,9 +1370,9 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
         try {
             List<Orden> list = mord.BuscarActivas("a");
-            
+
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -1059,9 +1382,9 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
         try {
             List<Orden> list = mord.BuscarActivas("||\n");
-            
+
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -1070,9 +1393,9 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
         try {
-            List<Orden> list = mord.BuscarActivas("C %' OR 1='1");            
+            List<Orden> list = mord.BuscarActivas("C %' OR 1='1");
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -1082,9 +1405,9 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
         try {
             List<Orden> list = mord.BuscarActivas("a");
-            
+
             list.forEach((o) -> {
-                JOptionPane.showMessageDialog(null, o.comentario);                
+                JOptionPane.showMessageDialog(null, o.comentario);
             });
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -1094,7 +1417,7 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
         try {
             Orden o = new Orden();
-            o.idOrden = mord.ObtenerId();            
+            o.idOrden = mord.ObtenerId();
             o.activa = true;
             o.cliente = "Luis Eduardo";
             o.comentario = "Sin Mayoneza";
@@ -1103,9 +1426,9 @@ public class Interfaz extends javax.swing.JFrame {
             o.mesa = "Mesa 5";
             o.mesero = "Gabriel Antonio";
             o.total = BigDecimal.valueOf(10.50);
-            mord.Insertar(o);            
+            mord.Insertar(o);
             o = mord.Obtener(o.idOrden);
-            JOptionPane.showMessageDialog(null, "Se ingreso orden="+o.idOrden);
+            JOptionPane.showMessageDialog(null, "Se ingreso orden=" + o.idOrden);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1114,7 +1437,7 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
         try {
             Orden o = new Orden();
-            o.idOrden = -1;            
+            o.idOrden = -1;
             o.activa = true;
             o.cliente = "Luis Eduardo";
             o.comentario = "Sin Mayonesa";
@@ -1123,9 +1446,9 @@ public class Interfaz extends javax.swing.JFrame {
             o.mesa = "Mesa 5";
             o.mesero = "Gabriel Antonio";
             o.total = BigDecimal.valueOf(10.50);
-            mord.Insertar(o);            
+            mord.Insertar(o);
             o = mord.Obtener(o.idOrden);
-            JOptionPane.showMessageDialog(null, "Se ingreso orden="+o.idOrden);
+            JOptionPane.showMessageDialog(null, "Se ingreso orden=" + o.idOrden);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1134,7 +1457,7 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
         try {
             Orden o = new Orden();
-            o.idOrden = mord.ObtenerId();            
+            o.idOrden = mord.ObtenerId();
             o.activa = true;
             o.cliente = "C %' OR 1='1";
             o.comentario = "C %' OR 1='1";
@@ -1143,9 +1466,9 @@ public class Interfaz extends javax.swing.JFrame {
             o.mesa = "C %' OR 1='1";
             o.mesero = "C %' OR 1='1";
             o.total = BigDecimal.valueOf(10.50);
-            mord.Insertar(o);            
+            mord.Insertar(o);
             o = mord.Obtener(o.idOrden);
-            JOptionPane.showMessageDialog(null, "Se ingreso orden="+o.idOrden);
+            JOptionPane.showMessageDialog(null, "Se ingreso orden=" + o.idOrden);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1154,7 +1477,7 @@ public class Interfaz extends javax.swing.JFrame {
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
         try {
             Orden o = new Orden();
-            o.idOrden = mord.ObtenerId();            
+            o.idOrden = mord.ObtenerId();
             o.activa = true;
             o.cliente = "Luis Eduardo";
             o.comentario = "Sin Mayonesa";
@@ -1163,9 +1486,9 @@ public class Interfaz extends javax.swing.JFrame {
             o.mesa = "Mesa 5";
             o.mesero = "Gabriel Antonio";
             o.total = BigDecimal.valueOf(10.50);
-            mord.Insertar(o);            
+            mord.Insertar(o);
             o = mord.Obtener(o.idOrden);
-            JOptionPane.showMessageDialog(null, "Se ingreso orden="+o.idOrden);
+            JOptionPane.showMessageDialog(null, "Se ingreso orden=" + o.idOrden);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1173,11 +1496,11 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
         try {
-            int id = mord.ObtenerId()-1; 
+            int id = mord.ObtenerId() - 1;
             Orden o = mord.Obtener(id);
             mord.Eliminar(o);
             o = mord.Obtener(id);
-            JOptionPane.showMessageDialog(null, "Se ha removido Orden="+id);
+            JOptionPane.showMessageDialog(null, "Se ha removido Orden=" + id);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1185,11 +1508,11 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
         try {
-            int id = mord.ObtenerId(); 
+            int id = mord.ObtenerId();
             Orden o = mord.Obtener(id);
             mord.Eliminar(o);
             o = mord.Obtener(id);
-            JOptionPane.showMessageDialog(null, "Se ha removido Orden="+id);
+            JOptionPane.showMessageDialog(null, "Se ha removido Orden=" + id);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1197,11 +1520,11 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
         try {
-            int id = mord.ObtenerId()-1; 
+            int id = mord.ObtenerId() - 1;
             Orden o = mord.Obtener(id);
             mord.Eliminar(o);
             o = mord.Obtener(id);
-            JOptionPane.showMessageDialog(null, "Se ha removido Orden="+id);
+            JOptionPane.showMessageDialog(null, "Se ha removido Orden=" + id);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1209,7 +1532,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
         try {
-            JOptionPane.showMessageDialog(null, "Id siguiente: "+mord.ObtenerId());
+            JOptionPane.showMessageDialog(null, "Id siguiente: " + mord.ObtenerId());
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
@@ -1228,7 +1551,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
         try {
-            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"),new Date("2018/1/1"));
+            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"), new Date("2018/1/1"));
             list.forEach((o) -> {
                 JOptionPane.showMessageDialog(null, o.cliente);
             });
@@ -1239,7 +1562,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
         try {
-            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"),new Date("2018/1/1"));
+            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"), new Date("2018/1/1"));
             list.forEach((o) -> {
                 JOptionPane.showMessageDialog(null, o.cliente);
             });
@@ -1250,7 +1573,7 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
         try {
-            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"),new Date("2018/1/1"));
+            List<Orden> list = mord.ObtenerVentas(new Date("2010/1/1"), new Date("2018/1/1"));
             list.forEach((o) -> {
                 JOptionPane.showMessageDialog(null, o.cliente);
             });
@@ -1261,11 +1584,286 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
         try {
-            JOptionPane.showMessageDialog(null, "Id siguiente: "+mord.ObtenerId());
+            JOptionPane.showMessageDialog(null, "Id siguiente: " + mord.ObtenerId());
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }//GEN-LAST:event_jButton51ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+
+        List<Parametro> lista = ManejadorParametros.Obtener();
+
+        for (Parametro parametro : lista) {
+
+            JOptionPane.showMessageDialog(null, parametro.nombre);
+
+        }
+
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+
+        try {
+            List<Parametro> lista = ManejadorParametros.Obtener();
+
+            for (Parametro parametro : lista) {
+
+                JOptionPane.showMessageDialog(null, parametro.nombre);
+
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        Parametro para = new Parametro();
+        para.idParametro = 1;
+        para.nombre = "empresa";
+        para.valor = "ABC TIENDA MOD";
+        ManejadorParametros.Actualizar(para);
+        Parametro modificado = ManejadorParametros.Obtener(1);
+        JOptionPane.showMessageDialog(null, modificado.valor);
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+
+        try {
+            Parametro para = new Parametro();
+            para.idParametro = 1;
+            ManejadorParametros.Actualizar(para);
+            Parametro modificado = ManejadorParametros.Obtener(1);
+            JOptionPane.showMessageDialog(null, modificado.valor);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jButton53ActionPerformed
+
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+
+        try {
+            Parametro para = new Parametro();
+            para.idParametro = 1;
+            para.nombre = "empresa";
+            para.valor = "ABC TIENDA MOD";
+            ManejadorParametros.Actualizar(para);
+            Parametro modificado = ManejadorParametros.Obtener(1);
+            JOptionPane.showMessageDialog(null, modificado.valor);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jButton52ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+
+        Parametro parametro = ManejadorParametros.Obtener(1);
+        JOptionPane.showMessageDialog(null, parametro.idParametro + "\n" + parametro.nombre + "\n" + parametro.valor);
+
+    }//GEN-LAST:event_jButton54ActionPerformed
+
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+
+        try {
+            Parametro parametro = ManejadorParametros.Obtener(-1);
+            JOptionPane.showMessageDialog(null, parametro.idParametro + "\n" + parametro.nombre + "\n" + parametro.valor);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jButton55ActionPerformed
+
+    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
+
+        try {
+            Parametro parametro = ManejadorParametros.Obtener(1);
+            JOptionPane.showMessageDialog(null, parametro.idParametro + "\n" + parametro.nombre + "\n" + parametro.valor);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jButton56ActionPerformed
+
+    private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
+        Orden orden = ManejadorOrden.Obtener(1);
+        JOptionPane.showMessageDialog(null, orden.total);
+        orden.CalcularTotal();
+        JOptionPane.showMessageDialog(null, orden.total);
+
+    }//GEN-LAST:event_jButton57ActionPerformed
+
+    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
+
+        try {
+            Orden orden = ManejadorOrden.Obtener(1);
+            JOptionPane.showMessageDialog(null, orden.total);
+            orden.CalcularTotal();
+            JOptionPane.showMessageDialog(null, orden.total);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+
+    }//GEN-LAST:event_jButton59ActionPerformed
+
+    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+        try {
+            List<Categoria> lista = ManejadorCategorias.Obtener(true);
+            for (Categoria categoria : lista) {
+                JOptionPane.showMessageDialog(null, categoria.nombre);
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton58ActionPerformed
+
+    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
+        try {
+            List<Categoria> lista = ManejadorCategorias.Obtener(true);
+            for (Categoria categoria : lista) {
+                JOptionPane.showMessageDialog(null, categoria.nombre);
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton61ActionPerformed
+
+    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
+        Categoria categoria = new Categoria();
+        categoria.idCategoria = 1;
+        categoria.nombre = "Pastas";
+        ManejadorCategorias.Actualizar(categoria);
+        JOptionPane.showMessageDialog(null, "Categoria actualizada");
+    }//GEN-LAST:event_jButton60ActionPerformed
+
+    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 1;
+            ManejadorCategorias.Actualizar(categoria);
+            JOptionPane.showMessageDialog(null, "Categoria actualizada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton62ActionPerformed
+
+    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 1;
+            categoria.nombre = "Pastas";
+            ManejadorCategorias.Actualizar(categoria);
+            JOptionPane.showMessageDialog(null, "Categoria actualizada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton63ActionPerformed
+
+    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            categoria.nombre = "Jugos";
+            ManejadorCategorias.Insertar(categoria);
+            JOptionPane.showMessageDialog(null, "Nueva categoria insertada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton64ActionPerformed
+
+    private void jButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton65ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            ManejadorCategorias.Actualizar(categoria);
+            JOptionPane.showMessageDialog(null, "Nueva categoria insertada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton65ActionPerformed
+
+    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            categoria.nombre = "Jugos";
+            ManejadorCategorias.Insertar(categoria);
+            JOptionPane.showMessageDialog(null, "Nueva categoria insertada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton66ActionPerformed
+
+    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            categoria.nombre = "Jugos";
+            ManejadorCategorias.Eliminar(categoria);
+            JOptionPane.showMessageDialog(null, "Categoria eliminada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton67ActionPerformed
+
+    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            ManejadorCategorias.Eliminar(categoria);
+            JOptionPane.showMessageDialog(null, "Categoria eliminada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton68ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        try {
+            Categoria categoria = new Categoria();
+            categoria.idCategoria = 4;
+            categoria.nombre = "Jugos";
+            ManejadorCategorias.Eliminar(categoria);
+            JOptionPane.showMessageDialog(null, "Categoria eliminada");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+        try {
+            int ultimoId = ManejadorCategorias.ObtenerId();
+            JOptionPane.showMessageDialog(null, ultimoId);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+        try {
+            int ultimoId = ManejadorCategorias.ObtenerId();
+            JOptionPane.showMessageDialog(null, ultimoId);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+
+        Orden orden = ManejadorOrden.Obtener(1);
+        System.out.println(orden);
+        Producto producto = new Producto();
+        producto.area='c';
+        producto.idCategoria=1;
+        
+        orden.AgregarProducto(producto, 2);
+        List<DetalleOrden> dtl = orden.detalleOrdenList;
+        for (DetalleOrden detalleOrden : dtl) {
+            JOptionPane.showMessageDialog(null, detalleOrden.producto.nombre);
+        }
+        
+    }//GEN-LAST:event_jButton72ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1317,6 +1915,8 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
@@ -1349,14 +1949,39 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
+    private javax.swing.JButton jButton53;
+    private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton55;
+    private javax.swing.JButton jButton56;
+    private javax.swing.JButton jButton57;
+    private javax.swing.JButton jButton58;
+    private javax.swing.JButton jButton59;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton60;
+    private javax.swing.JButton jButton61;
+    private javax.swing.JButton jButton62;
+    private javax.swing.JButton jButton63;
+    private javax.swing.JButton jButton64;
+    private javax.swing.JButton jButton65;
+    private javax.swing.JButton jButton66;
+    private javax.swing.JButton jButton67;
+    private javax.swing.JButton jButton68;
+    private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton70;
+    private javax.swing.JButton jButton71;
+    private javax.swing.JButton jButton72;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JToggleButton jToggleButton1;
     // End of variables declaration//GEN-END:variables
 }
